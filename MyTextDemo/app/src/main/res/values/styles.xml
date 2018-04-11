@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>//设置系统默认的分割线
+    </style>
+    <!-- 白天黑夜模式主题-->
+    <style name="MyDayNightThem" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>//设置系统默认的分割线
+    </style>
+
+    <style name="myNoteAtrrs_padding">
+
+    </style>
+
+    <style name="LoginTabItemStyle">
+        <item name="android:textSize">15dp</item>
+    </style>
+</resources>

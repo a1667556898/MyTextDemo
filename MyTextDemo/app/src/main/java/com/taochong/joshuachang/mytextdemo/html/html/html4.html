@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+        <html>
+<title>表单实例</title>
+<meta charset="utf-8">
+<form>
+    名：<input type="text" name="firstName" value="志宏"><br>
+    <br>
+    姓：<input type="text" name="secondName" value="陈"><br>
+</form>
+<hr>
+<p>密码输入</p>
+<form>
+    用户：<input type="text" name="user"><br>
+    <input type="password" name="password">
+</form>
+<p>请注意：当你输入密码域中键入字符时，浏览器将使用项目符号来替换这些字符</p>
+<h2>复选框checkbox</h2>
+<form>
+    我喜欢自行车：
+    <input type="checkbox" name="Bilke"><br>
+    我喜欢汽车：
+    <input type="checkbox" name="Caer"><br>
+</form>
+<h2>单选框radio</h2>
+<form>
+    男性：<input type="radio" name="Sex" value="male" checked="checked">
+    女性：<input type="radio" name="Sex" value="female">
+</form>
+<p>当用户点击一个单选按钮时，该按钮会变为选中状态，其他所有按钮会变成非选中状态</p>
+<h2>简单的下拉列表：select</h2>
+<form>
+    <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="Audi">Audi</option>
+    </select>
+</form>
+<h2>另一个带预选值的下拉列表：Select</h2>
+<form>
+    <select name="cars">
+        <option name="volvo">Vovlo</option>
+<option name="sfjs">niiia</option>
+        <option name="bmw">Bmw</option>
+        <option name="feg" selected="selected">fentian</option>
+    </select>
+</form>
+<h2>文本域 textarea</h2>
+<textarea cols="30" rows="5">
+    领先的web技术教程全部免费在w3school,你可以看到你需要的网站建设教程，
+    从基础的会突然没了到xhtml乃至进阶的小毛驴申请哦shujuklu jin行是否是福建省
+</textarea>
+<p>您无法对本利进行编辑，因为我们在线编辑器的使用textarea进行输入，而浏览器不许与textrear
+中存在另一份textarea</p>
+<h2>创建按钮</h2>
+<form>
+    <input type="button" name="btn" value="这是按钮">
+</form>
+<h2>在表单周围绘一个边框fieldset</h2>
+<form>
+    <fieldset >
+        <legend align="center">
+            健康信息
+        </legend>
+        身高：<input type="text" >
+        体重：<input type="text" >
+    </fieldset>
+</form>
+<p>如果表单周围没有框 则说明你的浏览器太老了</p>
+<h2>带有输入框和确认按钮的表单：</h2>
+<form action="action_page.php">
+    FirstName:<br>
+    <input type="text" name="firstName" value="Mickly"><br>
+    <input type="text" name="lastName" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+
+</form>
+<p>if you click"Submit",the form-data will be send to a page called "action_page.php".</p>
+<h2>带有复选框的表单</h2>
+<form name="input" action="/html/html_form_action.asp" method="get">
+I have a bike:
+    <input type="checkbox" name="vehicle" value="Bike" checked="checked"><br>
+    I have a car:
+    <input type="checkbox" name="vehicle" value="Car"><br>
+    I have a airplane:
+    <input type="checkbox" name="vehicle" value="airlpaln"><br><br>
+    <input type="submit" value="Submit">
+</form>
+<p>如果您点击“Submit"按钮，您将把输入传送到名为 html_form_action.asp的新页面</p>
+<h2>带有单选按钮的表单：</h2>
+<form>
+    <input type="radio" checked value="男人" name="sex">
+    <input type="radio"  value="女人" name="sex">woMale
+</form>
+<h2>表单发送电子邮件：</h2>
+<form action="MAILTO:704044496@qq.com" method="post" enctype="text/plain">
+    <h3>这个表单会把电子邮件发送到W3school</h3>
+    姓名：<br>
+    <input type="text" name="name" value="yourname" size="20"><br>
+    电邮：<br>
+    <input type="text" name="mail" value="yourmail" size="20"><br>
+    内容：<br>
+    <input type="text" name="comment" value="yourcomment" size="40"><br><br>
+    <input type="submit" value="发送">
+    <input type="reset" value="重置">
+
+</form>
+</html>

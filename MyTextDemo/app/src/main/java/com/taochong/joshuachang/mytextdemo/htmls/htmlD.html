@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<title>Html</title>
+<meta charset="UTF-8">
+<!--[if It IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+<body>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #c3c3c3;">
+Your Browser dose not support the canvas element.
+</canvas>
+<script type="text/javascript">
+    var c=document.getElementById("myCanvas");
+    var cxt=c.getContext("2d");
+    cxt.moveTo(10,10);
+    cxt.lineTo(150,50);
+    cxt.lineTo(10,50);
+    cxt.lineTo(10,10);
+
+    cxt.moveTo(100,100);
+    cxt.lineTo(250,150);
+
+
+    cxt.stroke();
+</script>
+</body>
+
+
+</html>

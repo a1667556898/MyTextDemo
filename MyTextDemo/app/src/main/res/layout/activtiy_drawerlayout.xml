@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我是主界面" />
+    </LinearLayout>
+    <!--抽屉容器
+    layout_gravity="right"通过这个属性判断是从左边还是右边出来
+    android:cliclable=true;解决bug透过抽屉直接点击主界面的问题
+    -->
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#69f"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_gravity="right|bottom"
+        android:background="#69f"
+        android:clickable="true" />
+</android.support.v4.widget.DrawerLayout>

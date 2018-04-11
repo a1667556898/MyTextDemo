@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+        <html>
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>css属性练习2</title>-->
+    <!--<style type="text/css">-->
+        <!--[title=W3School]-->
+        <!--{-->
+        <!--border:5px solid blue;}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<h1>可以用的样式：</h1>-->
+<!--<img title="W3School" src="/images/pic_03.jpg">-->
+<!--<br/>-->
+<!--<a title="W3School" href="http://w3school.com.cn">W3school</a>-->
+<!--<hr/>-->
+<!--<h1>无法应用样式：</h1>-->
+<!--<p title="greeting">Hi!</p>-->
+<!--<a class="W3School" href="http://w3school.com.cn">W3School</a>-->
+<!--</body>-->
+
+
+<!--<head>-->
+    <!--<title>哈哈哈</title>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<style type="text/css">-->
+        <!--[title~=hello]-->
+        <!--{-->
+        <!--color:red;-->
+        <!--}-->
+
+    <!--</style>-->
+<!--<body>-->
+<!--<h1>可以应用样式：</h1>-->
+<!--<h2 title="hello word">Hello World</h2>-->
+<!--<p title="student hello">Hello World W3Shool Student</p>-->
+<!--<hr/>-->
+
+<!--<h1>无法应用样式：</h1>-->
+<!--<h2 title="word">Hello Word</h2>-->
+<!--<p title="student">Hello World stud</p>-->
+<!--</body>-->
+<!--</head>-->
+
+<!--<head>-->
+    <!--<meta charset="UTF-8"/>-->
+    <!--<title>css属性练习2</title>-->
+    <!--<style type="text/css">-->
+        <!--[lang|=en]-->
+<!--{color:red;-->
+<!--}-->
+    <!--</style>-->
+    <!--<body>-->
+<!--<h1>可以应用样式：</h1>-->
+<!--<p lang="en">Hello World</p>-->
+<!--<p lang="en-us">Hi!</p>-->
+<!--<hr/>-->
+
+<!--<h1>无法应用的样式：</h1>-->
+<!--<p lang="us">Hi!~</p>-->
+<!--<p lang="zh">Hao!</p>-->
+<!--</body>-->
+<!--</head>-->
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器为不带id和class的表单设置属性非常方便</title>
+    <style type="text/css">//内部样式表 外联样式表 内联样式表 多重样式表
+        input[type="text"]
+        {
+        width:150px;
+        display:block;
+        margin-bottom:10px;
+        background-color:yellow;
+        font-family:Verdana,Arial;
+        }
+        input[type="button"]
+        {
+        width:120px;
+        margin-left:35px;
+        display:block;
+        font-family:Verdana,Arial;
+        }
+
+        hr { color:sienna;}
+        p { margin-left:20px;}
+body { background-image:url("images/retry.jpg)}
+    </style>
+</head>
+<body>
+<form name="input" action="" method="get">
+    <input type="text" name="Name" value="Bill" size="20">
+    <input type="text" name="Name" value="Gates" size="20">
+    <input type="button" value="Example Button">
+</form>
+<p style="color:sienna;margin-left:20px">This is a paragraph</p>
+
+</body>
+</html>

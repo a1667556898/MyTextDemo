@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<declare-styleable name="ShapeIndicatorView">-->
+        <!--<attr name="horizontalSpace" format="reference|integer"></attr>-->
+        <!--<attr name="fullColor" format="reference|color"></attr>-->
+        <!--<attr name="radius" format="reference|integer"></attr>-->
+    <!--</declare-styleable>-->
+    <declare-styleable name="MyTitleBar">
+        <attr name="bg" format="color|reference"/>
+        <attr name="imgLeft" format="reference"/>
+        <attr name="textLeft" format="string|reference"/>
+        <attr name="textLeftColor" format="color|reference"/>
+
+        <attr name="imgRight1" format="reference"/>
+        <attr name="imgRight2" format="reference"/>
+        <attr name="textRight2" format="string|reference"/>
+        <attr name="textRight2Color" format="color|reference"/>
+
+        <attr name="imgRightfix" format="reference"/>
+        <attr name="textMid" format="string|reference"/>
+        <attr name="textMidColor" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShapeIndicatorView">
+        <attr name="horizontalSpace" format="reference|integer"></attr>
+        <attr name="fullColor" format="reference|color"></attr>
+        <attr name="radius" format="reference|integer"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="NumberPicker">
+        <attr name="normalTextColor" format="color" />
+        <attr name="normalTextSize" format="dimension" />
+        <attr name="selecredTextColor" format="color" />
+        <attr name="selecredTextSize" format="dimension" />
+        <attr name="unitHight" format="dimension" />
+        <attr name="itemNumber" format="integer"/>
+        <attr name="lineColor" format="color" />
+        <attr name="maskHight" format="dimension"/>
+        <attr name="noEmpty" format="boolean"/>
+        <attr name="isEnable" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="wheelview">
+        <attr name="gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="textColorOut" format="color"/>
+        <attr name="textColorCenter" format="color"/>
+        <attr name="dividerColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MyNoteAtrrs">
+        <attr name="padding" format="dimension|reference"/>
+        <attr name="underline_color" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="LetterSpacingTextView">
+        <attr name="textSpacing" format="float"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
+
+</resources>

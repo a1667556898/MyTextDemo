@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/delete"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#ff0000"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="删除"/>
+
+    <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:paddingRight="13dp"
+                android:background="#ffffff">
+
+
+            <ImageView
+                    android:id="@+id/img_pro"
+                    android:layout_width="86dp"
+                    android:layout_height="86dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_launcher"/>
+
+
+            <TextView
+                    android:id="@+id/tv_productName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/img_pro"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text="MACROPUS 立体机理系列单肩款包"/>
+
+            <RelativeLayout
+                    android:id="@+id/rl_showType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/img_pro"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp">
+
+                <TextView
+                        android:id="@+id/product_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_toLeftOf="@+id/tv_productNum"
+                        android:textSize="13sp"
+                        android:singleLine="true"
+                        android:text="型号：M；颜色：白色"
+                        />
+
+                <TextView
+                        android:id="@+id/tv_productNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textSize="14sp"
+                        android:text="x1"
+                        />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

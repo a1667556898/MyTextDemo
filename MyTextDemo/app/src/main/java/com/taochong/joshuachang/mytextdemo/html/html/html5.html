@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+        <html>
+<meta charset="utf-8">
+<title>图像练习：</title>
+<h2>未设置对齐方式的图像</h2>
+<p>图像<img src="images/ziti.jpg"></p>
+<h2>已设置对齐方式的图像</h2>
+<p>图像<img src="images/1.jpg" align="top"></p>
+<p>图像<img src="images/1.jpg" align="bottom"></p>
+<p>图像<img src="images/1.jpg" align="middle"></p>
+<p><b>请注意：</b>bottom对齐方式是默认的对齐方式</p>
+<h2>浮动图标</h2>
+<p>
+        <img src="images/tp_21.jpg" height="50" width="50" align="left">
+        带有图像的一个段落，图像的align属性设置为left 图像将浮动到文本的左侧
+</p>
+<p>
+        <img src="images/tp_21.jpg" align="right" height="50" width="50">
+        带有图形的一个段落，图像的align属性设置为right，图像将浮动到文本的右侧
+</p>
+<h2>调整图像的尺寸</h2>
+<img src="images/tp_21.jpg" width="50" height="50"><br>
+<!--<img src="images/tp_21.jpg" width="100" height="100"><br>-->
+<!--<img src="images/tp_21.jpg" width="200" height="200"><br>-->
+<p>通过改变img标签的height和width属性的值 来改变图片的大小</p>
+<h2>为图片显示替换文本</h2>
+<p>如果图片不显示时，文本提示图片的内容 这个不错 一般都是有的</p>
+<p>仅支持文本的浏览器无法显示图片 仅仅能够在图像的alt属性中制订文本，在这里，alt的文本时向左转</p>
+<p>请注意：如果您把鼠标指针移动到图像上，大多数浏览武器会显示alt文本</p>
+<img src="images/tp_21.jpg" alt="向左转" height="50" width="50">
+<p>如果无法显示的图像 将显示alt属性张的文本</p>
+<img src="images/tp_21" alt="向左转">
+<h2>制作图片链接</h2>
+<p>你可以把图像作为链接来使用</p>
+<a href="http://www.baidu.com">
+        <img src="images/tp_21.jpg" width="50" height="50" alt="点击链接" border="0">
+</a>
+<h2>创建图形映射</h2>
+<p>请点击图形上的星星 把他们放大</p>
+<img src="images/tp_21.jpg" height="200" width="200" border="0" usemap="#planetmap" alt="Planets">
+<map name="planetmap" id="plajetmap">
+<area shape="circle" coords="180,139,14" href="http://www.baidu.com" target="_blank" alt="Venus"/>
+<area shape="rect" coords="0,0,110,260" href="http://www.baidu.com" target="_blank" alt="Mercury"/>
+<area shape="rect" coords="0,0,110,260" href="http://www.baidu.com" target="_blank" alt="Sun"/>
+</map>
+<p>注释：元素中的usemap属性引用map 元素中的id或name我们可以同时向map中添加id和name属性zing</p>
+
+</html>

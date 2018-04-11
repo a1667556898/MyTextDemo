@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:id="@+id/tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:clickable="true"
+    android:background="@drawable/textselect"
+    android:text="点我"/>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/img_press"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_below="@id/tv"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        cardview:cardElevation="20dp"
+        cardview:cardCornerRadius="10dp"
+        cardview:cardBackgroundColor="#ff00ff"
+        cardview:contentPaddingTop="10dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@mipmap/timg"/>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

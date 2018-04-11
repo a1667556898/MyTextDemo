@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taochong.joshuachang.mytextdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustPan">
+
+        <activity
+            android:name=".watermark.MyWaterMarkActivity"
+            android:hardwareAccelerated="false"
+            android:launchMode="standard"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".nightmode.MyNightModeActivity"/>
+        <activity android:name=".appbarlayout.MyAppBarLayoutActivity" />
+        <activity android:name=".canavas.MatrixPolyToPolyActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".okhttp.MyOkHttpDemoActivity" />
+        <activity android:name=".fresco.MyFrescoActivtiy" />
+        <activity android:name=".shoppingbag.ShoppingBagActivtiy" />
+        <activity android:name=".MyMediaplayerActivity" />
+        <activity android:name=".countdowntime.MyDaojishiActivtiy" />
+        <activity android:name=".textzipanddownload.MainActivity" />
+        <activity android:name=".recycleview.SwipReflashlayoutRecycleView" />
+        <activity android:name=".recycleview.RecycAddheadandfoot.MyAddHeadRecycleActivity" />
+        <activity android:name=".recycleview.MyRecycleViewActivtiy" />
+        <activity android:name=".drawerlayout.slidingmenu.BasicSlidingActivity" />
+        <activity android:name=".drawerlayout.slidingmenu.SlideFragActivity" />
+        <activity android:name=".drawerlayout.slidingmenu.SlidingUse2Activity" />
+        <activity android:name=".drawerlayout.MyDrawerLayoutActivity" />
+        <activity android:name=".drawerlayout.slidingmenu.MySlidingmenuActivity" />
+        <activity android:name=".drawerlayout.navigationview.MyNavigationActivity" />
+        <activity android:name=".updownload.MyUpdownLoadActivity" />
+        <activity android:name=".recycleview.pulltorecycleview.MyPulltoScrollviewActivity" />
+    </application>
+
+</manifest>

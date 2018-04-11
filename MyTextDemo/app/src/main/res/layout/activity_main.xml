@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.taochong.joshuachang.mytextdemo.MainActivity">
+
+  <com.taochong.joshuachang.mytextdemo.myviews.MyNoteBookView
+      android:layout_width="wrap_content"
+      android:hint="请输入内容"
+      app:padding="6dp"
+      android:background="@drawable/background"
+      app:underline_color="#00F"
+      android:layout_height="473dp"
+      android:id="@+id/myNoteBookView" />
+
+</FrameLayout>

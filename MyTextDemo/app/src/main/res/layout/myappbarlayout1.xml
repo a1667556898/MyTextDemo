@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff00"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--将你的内容放在这里-->
+        <android.support.design.widget.TabLayout
+            android:id="@+id/myTablayout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabMaxWidth="120dp"
+            app:tabMinWidth="100dp"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextAppearance="@style/LoginTabItemStyle"
+            app:tabTextColor="#000000" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/myViewpage"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+           />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

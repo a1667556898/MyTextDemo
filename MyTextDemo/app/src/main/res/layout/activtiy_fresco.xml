@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_showCach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示缓存" />
+
+    <Button
+        android:id="@+id/bt_cleanCach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清理缓存" />
+    <Button
+        android:id="@+id/bt_changeSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态改变图片大小" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        fresco:actualImageScaleType="focusCrop"
+        fresco:fadeDuration="300"
+        fresco:failureImage="@mipmap/ic_launcher"
+        fresco:placeholderImage="@mipmap/timg"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:progressBarImage="@mipmap/progress"
+        fresco:progressBarImageScaleType="centerCrop"
+        fresco:retryImage="@mipmap/retry"
+        fresco:retryImageScaleType="centerCrop"
+        fresco:roundAsCircle="true"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="true"
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="false"
+        fresco:roundedCornerRadius="10dp"
+        fresco:roundingBorderColor="@color/colorPrimary"
+        fresco:roundingBorderWidth="2dp" />
+</LinearLayout>

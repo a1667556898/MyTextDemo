@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+/* 信地集团首页 */
+body{font:12px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;background:#fff;margin:0 auto;}
+div{width:1072px;margin:0 auto;padding:0;text-aligh:center}
+img{border:none;}
+ul{list-style:none;margin:0;padding:0;}
+
+a:link{font-size:12px;color:#727272;text-decoration:none;}
+a:visited{font-size:12px;color:#999;text-decoration:none;}
+a:hover{font-size:12px;color:#010101;text-decoration:underline;}
+a：active{font-size:12px;color:#000;text-decoration:underline;}
+
+a.gray:link{font-size:12px;color:#727272;text-decoration:none;}
+a.gray:visited{font-size:12px;color:#999;text-decoration:none;}
+a.gray:hover{font-size:12px;color:#010101;text-decoration:underline;}
+a.gray:active{font-size:12px;color:#000;text-decoration:underline;}
+
+a.gray1:link{font-size:12px;color:#727272;text-decoration:none;}
+a.gray1:visited{font-size:12px;color:#999;text-decoration:none;}
+a.gray1:hover{font-size:12px;color:#006aad;text-decoration:underline;}
+a.gray1:active{font-size:12px;color:#006aad;text-decoration:underline;}
+
+.menu{width:1072px;height:91px;background:url(../images/bg1_02.jpg) no-repeat right center;float:left;display:block;width:100px;}
+.logo{float:left;padding:15px 0;margin-left:60px;}
+
+.mainmenu{float:right;padding:0;margin-top:30px;margin-right:120px;}
+.mainmenu li{font-size:14px;color:#999;background:url(../images/bg3_03.jpg) no-repeat center;float:left;display:block;width100px;}
+.mainmenu li.first{background:none}
+
+.middle{background:url(../images/bg4_07.jpg)repeat-x;height:176px;width:1000px;padding-top:25px;margin-top:1px;}
+.picl{width:239px;height:158px;background:url(../images/pic_11.jpg) no-repeat center;float:left;}
+
+.new{width:300px;height:160px;float:left;margin-left:20px;}
+.qikan{width:142px;height:160px;float:left;margin-left:20px;}
+.nav{width:242px;height:160px;float:left;margin-left:36px}
+
+.newnav{height:26px;border-bottom:1px;solid  #666}
+.newnav li{width:70px;height:25px;line-height:25px;display:block;float:left;list-style:none;border:1px solid #666; font-size:12px;border-right:none;
+border-bottom:none;background:#f6f6f6}
+.newnav li.last{border-right:1px solid #666}
+.newnav li.active{background:#fff}
+
+.newcontent{height:30px;width:300px;display:block}
+.newcontent li{border-bottom:1px;dotted #666;width:290px;height:26px;}
+.lspan{font-size:12px;margin:0;float:left;padding:0;height:26px;line-height:26px;white-space:normal;overflow:hidden;text-overflow:ellipsis;width:185px;}
+.repeat{font-size:12px;margin:0;float:right;height:26px;line-height:26px;}
+
+.footer{width:1001px;background:url(../images/bg2(2).jpg) repeat-x center center}
+.footerleft{width:20px;height:85px;background:url(../images/xindi_19.jpg) no-repeat;float:left}
+.footerright{width:20px;height:85px;background:url(../images/xindi_25.jpg) no-repeat;float:right}
+.foot1{width;193px;height:89px;float:left}
+.foot2{width;193px;height:89px;float:left}
+.foot3{width;193px;height:89px;float:left}
+.foot4{width;193px;height:89px;float:left}
+.foot5{width;193px;height:89px;float:left}
+
+font{width:1000px;height:15px;margin-top:100px;margin-bottom:30px}
+.lfont{font-size:12px;float:left;color:#666}
+.rfont{font-size:12px;float:left;color:#666}
+
+a.gray2:link{font-size:12px;color:#666666;text-decoration:none;display:inline-block;width:196px;height:23px}
+a.gray2:visited{font-size:12px;color:#666666;text-decoration:none;display:inline-block;}
+a.gray2:hover{font-size:12px;color:#666666;text-decoration:underline;}
+a.gray2:visited{font-size:12px;color:#006aad;text-decoration:underline;}
+
+.bg{height:30px;background:url(../images/index_06.gif)repeat-x;width:1002px}
+.wenzi{font-size:12px;height:30px;line-height:30px;float:right;color:#ababab;margin-right:16px}
+
+.biankuang{width:1002px;}
+.content-left{width:224px;height:283px;float:left;background:none}
+.content1{background:none; no-repeat;float:left;width:191px;height:64px;margin-left:4px}
+
+
+.kuandu{width:197px;height:216px;margin-top:90px;}
+.miaobian{width:197px;height:18px;border-bottom}
+.ziti{float:left;font-size:12px}
+.tu{float:left;font-size:12px}
+.tu{float:left;margin-right:9px;margin-left:11px;margin-top:4px}
+
+.bk{width:224px;height:742px;float:left}
+.miaobian1{width:197px;height:18px;border-bottom:1px;solid #ece8e8;margin-top:8px}
+.miaobian2{width:197px;height:18px;border-bottom:1px;solid #ece8e8;margin-top:2px}
+.zitiyanse{float:left;font-size:12px;font-weight:bold;color:#ffffff;margin-top:3px}
+.tu1{float:left;margin-right:9px;margin-left:11px;margin-top:7px;}
+
+.content-right{width:750px; float:left;margin-left:20px}
+.right{width:761px;height:64px;background:none;no-repeat;}
+.right1{width:5px;line-height:41px;float:left;margin-left:5px;margin-top:20px}
+right2{width:73px;float:left;margin-top:20px}
+
+.top{width:126px;height:39px;float:left;margin-top:20px;margin-left:45px}
+
+.zitiwenzi{font-size:12px;width659px;height:64px;border:1px solid #fff000;float:left;margin-left:72px;margin-top:2px}
+.ziti1{margin:0;padding:0;float:right}
+.bottom{float:left;margin-top:104px;margin-left:10px}
+
+
+.marketimg{width:700px;}
+.Fontmain{float:left;width:686px;margin-left:40px;font-size:12px}
+Fontmain p{line-height:18px;text-indent:18px;color:#333}
+.bottom{width:615px;height:332px;float:left;margin-left:100px;margin-top:30px}
+
+.qqq{width:700px;height:72px;margin-left:78px;margin-bottom:26px;}
+.leftimg{float:left;height:72px;line_height:72px;width:24px;}
+.littleimg{width:132px;height:72px;line-height:72px;float:left}
+
+.font1{width:1000px;height:25px;line-height:25px;margin-top:100px;margin-bottom:30px;border-top:1px solid #ccc}
+
+
+
+
+
+
+
+
+
+
